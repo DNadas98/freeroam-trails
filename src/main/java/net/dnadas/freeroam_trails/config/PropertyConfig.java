@@ -1,4 +1,4 @@
-package net.dnadas.freeroam_summits.config;
+package net.dnadas.freeroam_trails.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
