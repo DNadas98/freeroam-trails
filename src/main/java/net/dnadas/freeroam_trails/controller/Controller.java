@@ -1,4 +1,4 @@
-package net.dnadas.freeroam_trails;
+package net.dnadas.freeroam_trails.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,7 +11,7 @@ public class Controller {
     return "Hello from FreeRoamTrailsApplication protected route!";
   }
 
-  @GetMapping("hello")
+  @GetMapping("/public/hello")
   public String hello2() {
     return "Hello from FreeRoamTrailsApplication public route!";
   }
