@@ -3,6 +3,6 @@
 docker login
 ```
 ```Bash
-docker build -f Dockerfile -t dnadas98/priv:freeroam_trails . && \
-docker push dnadas98/priv:freeroam_trails
+docker build -f Dockerfile -t dnadas98/freeroam:trails . && \
+docker push dnadas98/freeroam:trails
 ```
